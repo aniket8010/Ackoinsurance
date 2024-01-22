@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.a_container{
+    width: 85%;
+    padding: 15px 10px 0px 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.a_screen_view .a_left{
+    width: 50%;
+}
+.a_left .a_nav_list{
+    list-style: none;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a_container .a_left ul li i{
+    font-size: 10px;
+}
+.a_container .a_left ul li a{
+    text-decoration: none;
+}
+.a_screen_view .a_container .a_right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.a_screen_view .a_container .a_right button{
+    gap: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* service section*/
+.a_service{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a_service .a_service_box{
+    cursor: pointer;
+    width: 8%;
+    
+    
+}
+.a_service .a_service_box .a_icon{
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.a_service .a_service_box h6{
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
