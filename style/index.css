@@ -140,5 +140,15 @@ ul {
   color: #000 !important;
 }
 
-
-
+.a_common_class .a_center_form{
+  animation: formanimation 1s;
+}
+@keyframes formanimation {
+  0%{
+    transform: translateY(60px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+  
+}
