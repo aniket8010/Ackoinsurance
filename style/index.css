@@ -152,3 +152,20 @@ ul {
   }
   
 }
+.a_thumbnail_video video{
+  width: 100%;
+  margin: auto;
+}
+.a_videos h6{
+  font-size: 14px;
+}
+.a_video_list::-webkit-scrollbar-thumb{
+  background-color: white !important;
+  width: 5px;
+  border-radius: 10px;
+}
+.a_video_list::-webkit-scrollbar{
+  background-color: #0E0C23 !important;
+  width: 5px;
+  border-radius: 10px;
+}
