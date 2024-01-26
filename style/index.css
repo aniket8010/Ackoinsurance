@@ -169,3 +169,40 @@ ul {
   width: 5px;
   border-radius: 10px;
 }
+.a_purple {
+  color: #5920C5;
+}
+.a_vehicle h2 span:last-child {
+  border-bottom: 5px solid #5920C5;
+}
+.a_officials .a_img_box {
+  border-radius: 15px;
+}
+.a_officials .a_img_box img{
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+}
+.a_app_sections{
+  margin: 100px;
+  height: 250px;
+}
+.a_app_sections .a_app_container{
+  width: 45%;
+  height: 100px;
+  margin: auto;
+  display: flex !important;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.a_app_sections .a_app_container .a_app_img_box{
+  height: 45px;
+  width: 12%;
+  margin-top: 20px;
+}
+.a_app_sections .a_app_container .a_app_img_box img{
+  height: 100%;
+  width: 100%;
+}
