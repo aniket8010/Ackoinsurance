@@ -97,3 +97,20 @@ travel.addEventListener("click", function (event) {
   travelBanner.classList.remove("d-none");
   carBanner.classList.add("d-none");
 });
+
+//video section 
+
+const currentVideo = document.getElementById("currentvideo")
+const currentTitle = document.getElementById("currenttitle")
+const videoList = document.getElementsByClassName("a_videos")
+
+for (let i=0 ; i<videoList.length ; i++){
+  const listSrc =videoList[i].children.item("div").children.item("div").children.item("video").src
+  const text=videoList[i].children.item("1").children.item("0").innerText
+  
+  videoList[i].addEventListener("click",() => {
+    currentVideo.src=listSrc
+    currentTitle.innerText=text
+    currentVideo.play()
+  })
+}
