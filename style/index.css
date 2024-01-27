@@ -206,3 +206,11 @@ ul {
   height: 100%;
   width: 100%;
 }
+.a_acko_address .a_links i {
+  background-color: #F0F0F6 !important;
+  padding: 8px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+
+}
