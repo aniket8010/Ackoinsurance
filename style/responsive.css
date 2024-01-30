@@ -1,0 +1,8 @@
+@media screen and (min-width :768px){
+ .a_container{
+    display: flex !important;
+}
+.a_small_screen_header{
+    display: none !important;
+}
+}

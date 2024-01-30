@@ -13,13 +13,42 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <link rel="stylesheet" href="/style/coustom_bootstrap.css" />
   <link rel="stylesheet" href="/style/index.css" />
+  <link rel="stylesheet" href="/style/responsive.css">
 </head>
 
 <body>
   <!--Screen view-->
   <div class="a_screen_view a_bg_primary">
-    <!--Header part-->
-    <header class="a_container">
+    <!-- header part small screen  -->
+    <header class="a_small_screen_header d-flex justify-content-between align-items-center">
+      <div>
+        <a href="">
+          <img class="p-3" src="/Image/acko-company-logo-white.svg" alt="">
+        </a>
+      </div>
+      <div>
+        <i  id="a_open_slider" class="fa fa-bars p-3 text-white fs-4" aria-hidden="true"></i>
+      </div>
+      <!-- slider part for mobile small scree  -->
+      <div class="a_small_screen_drawer d-none">
+        <div class="a_screen_wrapper">
+          <div class="p-3 d-flex justify-content-between align-items-center">
+            <img src="/Image/acko-company-logo-white.svg" alt="">
+            <i id="a_close_slider" class="fa fa-window-close-o fs-4" aria-hidden="true"></i>
+          </div>
+          <nav>
+            <ul class="ps-4  nav flex-column">
+              <li><a href="">Products</a></li>
+              <li><a href="">Renewals</a></li>
+              <li><a href="">Claims</a></li>
+              <li><a href="">Resources</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--Header full part screen part-->
+    <header class="a_container a_header_full_screen">
       <div class="a_left">
         <nav>
           <ul class="a_nav_list">
@@ -110,7 +139,7 @@
             </div>
             <div class="a_input_section">
               <div class="a_input_box">
-                <input type="text" placeholder="Enter Your Car Number" />
+                <input  type="text" placeholder="Enter Your Car Number" />
                 <button class="text-white">Get Quote</button>
               </div>
             </div>
@@ -657,10 +686,10 @@
         <div style="margin-top: 80px;background: #EFE9FB; border-radius: 13px;padding: 16px 0px;width: 88%;" class="container text-center">
           <h6 class="fw-bold">Download our ACKO app now!          </h6>
           <div class="a_store d-flex justify-content-center gap-2 mt-3">
-            <div class="first_img_box">
+            <div class="first_img_box a_cursor_pointer">
               <img src="/Image/google-play-footer.svg" alt="">
             </div>
-            <div class="second_img_box">
+            <div class="second_img_box a_cursor_pointer">
               <img src="/Image/app-store-footer.svg" alt="">
             </div>
           </div>
@@ -668,6 +697,26 @@
         
       </div>
     </div>
+  </section>
+  <!--Navbar section-->
+  <nav class="a_footer_container">
+    <div id="footer_navbar" class="row">
+      <!--dynamic section-->
+    </div>
+  </nav>
+  <section style="background: #F6F7FB;" class="a_footer_bottom">
+    <div class="container w-75 mx-auto">
+      <div style="font-size: 12px; font-weight: 600;" class="a_top_headings d-flex justify-content-lg-start gap-4 py-3">
+        <p>CIN: U66000KA2016PLC138288      </p>
+        <p>IRDAI Registration No: 157      </p>
+        <p>Category: Non-Life Insurance      </p>
+      </div>
+      <div style="font-size: 12px;" class="a_para">
+        <p>The use of images and brands are only for the purpose of indication and illustration. ACKO claims no rights on the IP rights of any third parties. The ratings are derived from reviews and feedback received from Google and Facebook users on their respective platforms. | *Discount is calculated basis F&U filling rates. Product name: Private Car Policy - Bundled | UIN: IRDAN157RP0014V02201819 |        </p>
+        <p>Trade logo displayed above belongs to ACKO Technology & Services Pvt Ltd and used by ACKO General insurance Limited under License. For more details on risk factors, terms, conditions and exclusions, please read the policy wordings carefully before concluding a sale.</p>
+      </div>
+    </div>
+
   </section>
   </footer>
   </div>

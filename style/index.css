@@ -22,6 +22,30 @@ ul {
 .a_screen_view .a_left {
   width: 50%;
 }
+.a_header_full_screen{
+  display: none !important;
+}
+.a_small_screen_drawer{
+  width: 35%;
+  height: 117vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+}
+.a_screen_wrapper{
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+.a_screen_wrapper nav ul a{
+  text-decoration: none;
+  color: black;
+}
+.a_screen_wrapper nav ul{
+  line-height: 30px;
+}
 .a_left .a_nav_list {
   list-style: none;
   display: flex;
@@ -59,7 +83,7 @@ ul {
 }
 .a_service .a_service_box {
   cursor: pointer;
-  width: 8%;
+  width: 45px;
 }
 .a_service .a_service_box .a_icon {
   padding: 10px;
@@ -213,4 +237,10 @@ ul {
   width: 32px;
   border-radius: 50%;
 
+}
+.a_force_fontsize{
+  font-size: 14px !important;
+}
+p{
+  margin-bottom: 0px !important;
 }
